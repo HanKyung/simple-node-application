@@ -16,7 +16,7 @@ const ENV = 'DEV';
 
 const http = require("http");
 const hostname = "localhost";
-const port = 3700;
+const port = 8080;
 
 const server = http.createServer((req, res) => {
     console.log(req.headers);
